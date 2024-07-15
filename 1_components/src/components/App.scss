@@ -1,0 +1,17 @@
+.title {
+    color: purple;
+}
+
+.paragraph {
+    color: fuchsia;
+    font-weight: bold;
+
+    &_blue {
+        color: blue;
+    }
+}
+
+/* Las hojas de estilo scss permiten crear estilos anidados con subclases indicadas con "&_" delante. Estas subclases heredan todos los atributos dados a la clase padre pero tendrán las propiedades especificas que se le apliquen en su subclase
+
+El elemento html al que se le aplique esta subclase debe estar dentro del elemento html padre que tenga la clase css padre 
+En este caso el elemento <p> tiene la clase ".paragraph", y dentro se ha definido un <span> con la subclase "paragraph_blue */

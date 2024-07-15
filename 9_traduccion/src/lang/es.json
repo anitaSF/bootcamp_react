@@ -1,0 +1,5 @@
+{
+    "app.header": "Hola Mundo",
+    "app.content": "Aprender dependencia INTL",
+    "app.user": "Bienvenido {user}"
+}

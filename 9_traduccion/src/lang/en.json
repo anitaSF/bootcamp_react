@@ -1,0 +1,5 @@
+{
+    "app.header": "Hello world",
+    "app.content": "Learn react INTL",
+    "app.user": "Welcome {user}"
+}
